@@ -1,0 +1,40 @@
+.plan-card {
+    background: #222;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.plan-card:hover {
+    transform: scale(1.05);
+}
+
+.plan-card h3 {
+    color: #e50914;
+    margin-bottom: 10px;
+}
+
+.plan-card p {
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subscribe-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #e50914;
+    border-radius: 4px;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #f6121d;
+}

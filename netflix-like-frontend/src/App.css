@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+
+.main-content {
+  padding-top: 80px; /* Espaço para Navbar fixa */
+  padding: 20px;
+}
